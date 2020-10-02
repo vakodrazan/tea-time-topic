@@ -3,7 +3,6 @@ const endpoint = `https://gist.githubusercontent.com/Pinois/93afbc4a061352a0c703
 async function fetching() {
     const res = await fetch(endpoint);
     const data = await res.json();
-    console.log(data);
     return data;
 }
 
