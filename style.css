@@ -2,9 +2,10 @@ body {
     background-color: #f2f7f5;
 }
 
-section  {
+article  {
     background-color: #fff;
     padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
 }
 
