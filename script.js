@@ -1,7 +1,10 @@
 // Import from file module
-import { showList } from './list.js'
+import { showList } from './list.js';
+import { form } from './elements.js';
+import { addNewTopic } from './elements.js';
 
-let topic = [];
+// let topic = [];
 
-showList(topic);
 
+showList();
+form.addEventListener('submit', addNewTopic);
