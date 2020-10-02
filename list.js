@@ -19,15 +19,21 @@ export const showList  = async topics => {
 
     let html = sortingList
         .map(topic => {
+            // const dateSetUp = new Date(topic.discussedOn);
             
+            // const day = dateSetUp.getDay();
+            // const month = dateSetUp.getMonth();
+            // const year = dateSetUp.getFullYear();
+            // const dateDiscused = `${day} / ${month} / ${year}`;
+
             return `
-            <article>
+            <article class="topicList" data-id="${topic.id}">
                 <p>
                     ${topic.title}
                 </p>
                 <div class="voting">
                     <div>
-                        <button aria-placeholder="upvote ${topic.title}" data-id="${topic.id}">
+                        <button class="upvote" aria-placeholder="upvote ${topic.title}" data-id="${topic.id}">
                             ${upvote}
                         </button>
                         <span>
@@ -51,20 +57,6 @@ export const showList  = async topics => {
         })
         .join("");
         list.innerHTML = html;
+
 }
- 
-// const updateVoting = e => {
-// 	if (e.target.closest('')) {
 
-//     }
-// }
-
-// const upvoted = fetchedData.reduce((acc, votes) => {
-//     if (acc[votes.upvotes]) {
-//         acc[votes.upvotes]++;
-//     } else {
-//         acc[votes.upvotes] = 1;
-//     }
-//     return acc;
-// }, {});
-// console.log(upvoted);
