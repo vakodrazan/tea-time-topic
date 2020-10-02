@@ -68,3 +68,29 @@ Here's a list of details that I'll check, for grading your project. Use it to gu
 Fork this repo and clone your fork. You have until 16h30 to complete the project. Stop coding a bit earlier to take some time documenting your project in the readme.
 
 Good luck team 🔥💪 and happy coding 👍
+
+
+ #### Structure: 
+
+In this project, we need to fetch data from the api.
+
+ - Once we fetch the data, I need to show it in the dom.
+ - I create an article for each list, map through each list.
+ - Then refactor it in some several files so the main file doesn't take so much space.
+ - Also, we need to store it local storage. 
+
+ #### improvements: 
+
+ - It was such a tough project, mostly I couldn't manage to get thing work. I just spend my time to get the list set up but then I still refactor the code that I have done.
+ - I could not get the add new topic, update the vote archived.
+ - Also, I couldn't manage to separate the list based on the one already discussed and the new one for the future topic.
+
+ #### Experience: 
+
+ - It was such nice project to work on because, it help me to think of where to start because we need to manage our time if we want to get it done. But still, I couldn't manage to finish it.
+
+ #### Learning: 
+ 
+ - I learn how to manage my time to finish a project in a very short time.
+
+
