@@ -1,0 +1,23 @@
+body {
+    background-color: #f2f7f5;
+}
+
+section  {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+svg {
+	width: 30px;
+	max-width: 100%;
+}
+
+button {
+	border: none;
+	max-height: 100%;
+}
+
+.voting {
+    display: flex;
+}
